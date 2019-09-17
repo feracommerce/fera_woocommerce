@@ -55,7 +55,7 @@ class Fera_Ai_Integration extends Fera_Ai {
     }
 
     /**
-     * push variantid in product page
+     * push variantid in product page to show low stock msg per variant
      * 
      */
     function fera_ai_pushVariation() {
@@ -71,7 +71,9 @@ class Fera_Ai_Integration extends Fera_Ai {
                                 //console.log(variantId);
                                 window.fera = window.fera || [];
                                 window.fera.push('setVariantId',variantId);
-                                window.fera.refreshContent();
+                                setTimeout(function() {
+                                    window.fera.refreshContent();
+                                }, 1000)
                             }
                         });
                     });
