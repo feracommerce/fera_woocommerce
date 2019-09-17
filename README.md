@@ -2,8 +2,8 @@
 This extension makes it easy to use Fera.ai to offer customers a live shopping experience in your product pages. To learn more about Fera go to https://www.fera.ai
 
 ## Tested on
-Wordpress: Version 5.2.3
-Woocommerce: Version 3.6.5
+- Wordpress: Version 5.2.3
+- Woocommerce: Version 3.6.5
 
 ## Installation
 #### Via FTP/Filesystem
